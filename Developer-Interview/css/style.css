@@ -1,0 +1,66 @@
+body{
+    background-color: aquamarine;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container{
+    background-color: lightslategray;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formWrap{
+    display: flex;
+    justify-content: center;
+}
+
+.field{
+    float: right;
+}
+
+.item{
+    padding: 3px;
+    padding-bottom: 7px;
+}
+
+#nul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}  
+/* navbar <li> tags */
+li{
+    float: left;
+}
+/* navbar <a> tags */
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 7px;
+}
+
+li a:hover{
+    background-color: #111;
+    color: green;
+}
+
+#title{
+    color: green;
+}
+
+.footer{
+    background-color: #333;
+    min-height: 60px;
+}
+
+.error{
+    float: right;
+    color: rgb(160, 23, 23);
+}
